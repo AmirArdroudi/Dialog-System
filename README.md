@@ -5,5 +5,8 @@ I've used [Mybox](https://github.com/Deadcows/MyBox) to organized my inspector v
 All dialog text will be read from language.json file (you can change the source to anything you like).
 
 ---
-
 ![an overview of the dialog-system](img/dialogSystem.png)
+
+TODO
+---
+- Create a sample scene 
