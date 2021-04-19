@@ -6,6 +6,12 @@ All dialog text will be read from language.json file (you can change the source 
 
 ![an overview of the dialog-system](img/dialogSystem.png)
 
+
+## Dependencies 
+* [MyBox](https://github.com/Deadcows/MyBox)
+* [Dotween](http://dotween.demigiant.com/download.php)
+
+
 TODO
 ---
 - Create a sample scene 
