@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using DG.Tweening;
-using MyBox;
 using TMPro;
 using UnityEngine.UI;
 

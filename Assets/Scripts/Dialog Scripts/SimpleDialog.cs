@@ -11,11 +11,7 @@ namespace Dialog
 
         public override void UpdateDialogBox(DialogDataSo dialogDataSo)
         {
-            string jsonKey = dialogDataSo.dialogKeyJson;
-            if (dialogDataSo.isCharacterRelatedDialog)
-                jsonKey += "_ch" + selectedCharacterIndex.Value;
-    
-            dialogText.text = defs[jsonKey];
+            dialogText.text = defs[dialogDataSo.dialogKeyJson];
         }
         
         public override void ShowDialogBox(bool state)

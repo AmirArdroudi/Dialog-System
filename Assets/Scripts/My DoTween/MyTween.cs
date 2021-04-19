@@ -1,8 +1,7 @@
 ﻿using UnityEngine;
 using DG.Tweening;
-using MyBox;
 
-namespace VOID.FT
+namespace Dotween
 {
     public abstract class MyTween : MonoBehaviour
     {
