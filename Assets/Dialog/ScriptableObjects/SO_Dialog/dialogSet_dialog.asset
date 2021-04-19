@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d57069044cb40b182bcb715397e5fe7, type: 3}
+  m_Name: dialogSet_dialog
+  m_EditorClassIdentifier: 
+  dialogDataset:
+  - {fileID: 11400000, guid: 848bb3a3c4dcdb64ca3aa3fca032927b, type: 2}
+  - {fileID: 11400000, guid: a611049192b621e459165bd3883eeced, type: 2}
+  okButtonEvent: {fileID: 11400000, guid: 0b9c82ea08492a94dafd98771dadcc2c, type: 2}
