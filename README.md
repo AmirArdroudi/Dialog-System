@@ -14,4 +14,5 @@ TODO
 ---
 - [x] Create a sample scene 
 - [ ] write Comments for managers
+- [ ] Text typing effect for dialog lines
 - [ ] refactoring 
