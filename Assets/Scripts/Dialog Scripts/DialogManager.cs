@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using UnityEngine.UI;
-namespace VOID.FT
+
+namespace Dialog
 {
     /// <summary>
     /// Dialog manager is responsible for all dialog things
@@ -57,11 +57,6 @@ namespace VOID.FT
             else
                 dialogUIManager.SetOkButtonState(true);
         }
-
-        
-        //TODO typing dialog line feature
-        
-
         
     }
 }

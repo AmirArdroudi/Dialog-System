@@ -9,14 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 97e116eaf032d0e44bfe82d509781f1b, type: 3}
-  m_Name: dialog_wrongDialog
+  m_Script: {fileID: 11500000, guid: a48843a3a092eab4cbec3966444e6932, type: 3}
+  m_Name: ev_OKbtn_dialog
   m_EditorClassIdentifier: 
-  description: ' '
-  dialogKeyJson: wrong
-  isCharacterRelatedDialog: 0
-  isComplexDialog: 0
-  videoOptions:
-    videoClip: {fileID: 0}
-    playbackSpeed: 1
-  avatarSprite: {fileID: 0}
