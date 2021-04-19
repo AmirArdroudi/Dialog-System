@@ -12,6 +12,6 @@ All dialog text will be read from its scriptable objects.
 
 TODO
 ---
-- Create a sample scene 
-- write Comments for managers
-- refactoring 
+- [x] Create a sample scene 
+- [ ] write Comments for managers
+- [ ] refactoring 
