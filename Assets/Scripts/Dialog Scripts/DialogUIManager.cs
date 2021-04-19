@@ -10,9 +10,7 @@ namespace Dialog
     /// </summary>
     public class DialogUIManager : MonoBehaviour
     {
-        public SimpleDialog simpleDialogBox;
-        public ComplexDialog complexDialogBox;
-        private bool isCurrentDialogComplex = false;
+        public SimpleDialog DialogBox;
         [HideInInspector] public bool isDialogBoxOpen = false;
 
         
@@ -22,34 +20,23 @@ namespace Dialog
         /// <param name="dialogData">dialogDataSO</param>
         public void UpdateDialogBoxData(ref DialogDataSo dialogData)
         {
-            isCurrentDialogComplex = dialogData.isComplexDialog;
-            
-            if (isCurrentDialogComplex)
-                complexDialogBox.UpdateDialogBox(dialogData);
-            else
-                simpleDialogBox.UpdateDialogBox(dialogData);
+            DialogBox.UpdateDialogBox(dialogData);
         }
         
         public void ShowDialogBox(bool state)
         {
-            if (isCurrentDialogComplex)
-                complexDialogBox.ShowDialogBox(state);
-            else
-                simpleDialogBox.ShowDialogBox(state);
+            DialogBox.ShowDialogBox(state);
         }
 
 
         public void SetOkButtonState(bool state)
         {
-            if(isCurrentDialogComplex)
-                complexDialogBox.okButton.interactable = state;
-            else
-                simpleDialogBox.okButton.interactable = state;
+            DialogBox.okButton.interactable = state;
         }
 
         public Button GetOkButton()
         {
-            return isCurrentDialogComplex ? complexDialogBox.okButton : simpleDialogBox.okButton;
+            return DialogBox.okButton;
         }
 
     }
