@@ -16,7 +16,6 @@ namespace Dialog
                 jsonKey += "_ch" + selectedCharacterIndex.Value;
     
             dialogText.text = defs[jsonKey];
-            Speech(jsonKey);
         }
         
         public override void ShowDialogBox(bool state)

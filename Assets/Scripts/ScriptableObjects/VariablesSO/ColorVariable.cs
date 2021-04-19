@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-namespace VOID.DD
+namespace VariableSO
 {
     [CreateAssetMenu(fileName = "varColor_", menuName = "Gameplay/variables/Color", order = 0)]
-    public class ColorVariable : BaseSO
+    public class ColorVariable : ScriptableObject
     {
         public Color Value;
         public void SetValue(Color value)

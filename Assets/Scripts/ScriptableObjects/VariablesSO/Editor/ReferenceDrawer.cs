@@ -3,8 +3,6 @@ using UnityEngine;
 
 namespace VOID.DD.Scripts.Variables.Editor
 {
-   [CustomPropertyDrawer(typeof(FloatReference))]
-   [CustomPropertyDrawer(typeof(StringReference))]
     public class FloatReferenceDrawer : PropertyDrawer
     {
         /// <summary>

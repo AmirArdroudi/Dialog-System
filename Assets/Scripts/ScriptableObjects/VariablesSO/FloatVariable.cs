@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-namespace VOID.DD
+namespace VariableSO
 {
     [CreateAssetMenu(fileName = "varF_", menuName = "Gameplay/variables/Float")]
-    public class FloatVariable : BaseSO
+    public class FloatVariable : ScriptableObject
     {
         public float Value;
         public void SetValue(float value)

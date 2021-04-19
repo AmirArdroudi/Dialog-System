@@ -1,5 +1,5 @@
 ﻿
-namespace VOID.DD
+namespace VariableSO
 {
     public class StringReference
     {

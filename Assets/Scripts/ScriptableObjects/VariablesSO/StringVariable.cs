@@ -1,9 +1,9 @@
 ﻿using UnityEngine;
 
-namespace VOID.DD
+namespace VariableSO
 {
     [CreateAssetMenu (fileName = "varS_", menuName = "Gameplay/variables/String")]
-    public class StringVariable : BaseSO
+    public class StringVariable : ScriptableObject
     {
         public string Value;
 

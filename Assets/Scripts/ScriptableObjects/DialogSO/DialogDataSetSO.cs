@@ -1,10 +1,9 @@
 ﻿using UnityEngine;
-using VOID.DD.Scripts.Events;
 
-namespace VOID.DD.Scripts.ScriptableObjects
+namespace Dialog
 {
-    [CreateAssetMenu(fileName = "dialogSet_lvlX_title", menuName = "Gameplay/Dialog/Dialog Data Set")]
-    public class DialogDataSetSO : BaseSO
+    [CreateAssetMenu(fileName = "dialogSet_lvlX_title", menuName = "Dialog/Dialog Data Set")]
+    public class DialogDataSetSO : ScriptableObject
     {
         public DialogDataSo[] dialogDataset;
         [Space]

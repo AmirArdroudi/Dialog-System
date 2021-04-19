@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace VOID.DD.Scripts.Variables
+namespace VariableSO
 {
     [Serializable]
     public class FloatReference
