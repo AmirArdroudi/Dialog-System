@@ -2,7 +2,7 @@
 using MyBox;
 using UnityEngine;
 
-namespace VOID.FT.Scripts.Tweens
+namespace MyDotween
 {
     public enum ShakeType
     {
@@ -59,7 +59,6 @@ namespace VOID.FT.Scripts.Tweens
 
         public override void Pause()
         {
-            base.Pause();
             myTween?.Pause();
         }
         public override Tween GetMyTween()

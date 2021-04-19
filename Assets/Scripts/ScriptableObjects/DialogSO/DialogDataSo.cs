@@ -6,7 +6,7 @@ namespace Dialog
     public class DialogDataSo : ScriptableObject
     {
         [Space]
-        public string DialogKeyJson;
+        public string dialogLine;
 
 
     }

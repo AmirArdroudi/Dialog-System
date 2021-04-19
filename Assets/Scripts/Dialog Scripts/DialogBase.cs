@@ -8,15 +8,13 @@ namespace Dialog
     {
         public Button okButton;
         public Canvas canvas;
-        public TMP_Text dialogText;
-        protected JSONNode defs;
+        public TextMesh dialogText;
         
         public abstract void UpdateDialogBox(DialogDataSo dialogDataSo);
         public abstract void ShowDialogBox(bool state);
 
         protected void Start()
         {
-            defs = SharedState.LanguageDefs;
             okButton.interactable = false;
         }
         

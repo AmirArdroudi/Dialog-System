@@ -2,7 +2,7 @@
 using DG.Tweening;
 using MyBox;
 
-namespace VOID.FT
+namespace MyDotween
 {
     public class MyTweenScale : MyTween
     {
@@ -45,7 +45,6 @@ namespace VOID.FT
         
         public override void Pause()
         {
-            base.Pause();
             myTween?.Pause();
         }
         

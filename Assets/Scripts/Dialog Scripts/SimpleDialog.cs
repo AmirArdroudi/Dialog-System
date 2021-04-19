@@ -1,6 +1,6 @@
 ﻿using System.Collections;
 using UnityEngine;
-
+using MyDotween;
 
 namespace Dialog
 {
@@ -11,7 +11,7 @@ namespace Dialog
 
         public override void UpdateDialogBox(DialogDataSo dialogDataSo)
         {
-            dialogText.text = defs[dialogDataSo.dialogKeyJson];
+            dialogText.text = dialogDataSo.dialogLine;
         }
         
         public override void ShowDialogBox(bool state)
@@ -23,7 +23,7 @@ namespace Dialog
             }
             else
             {
-                dialogBoxTween.GetMyTween().PlayBackwards();
+                // dialogBoxTween.GetMyTween().PlayBackwards();
                 StartCoroutine(ShowCanvas(2, false));
             }
         }

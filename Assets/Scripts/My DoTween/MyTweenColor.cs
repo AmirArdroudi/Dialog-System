@@ -2,8 +2,9 @@
 using DG.Tweening;
 using TMPro;
 using UnityEngine.UI;
+using MyBox;
 
-namespace VOID.FT
+namespace MyDotween
 {
     public enum TextureType
     {
@@ -20,7 +21,7 @@ namespace VOID.FT
         [ConditionalField(nameof(textureType),false, TextureType.TextMeshProGUI)]
         public TextMeshProUGUI textMeshProUGUI;
 
-        public ColorReference endColor;
+        public Color endColor;
         
         private Tween _myTween;
 
@@ -35,13 +36,13 @@ namespace VOID.FT
             switch (textureType)
             {
                 case TextureType.Sprite:
-                    _myTween = spriteToTween.DOColor(endColor.Value, duration);
+                    _myTween = spriteToTween.DOColor(endColor, duration);
                     break;
                 case TextureType.ImageUI:
-                    _myTween = imageToTween.DOColor(endColor.Value, duration);
+                    _myTween = imageToTween.DOColor(endColor, duration);
                     break;
                 case TextureType.TextMeshProGUI:
-                    _myTween = textMeshProUGUI.DOColor(endColor.Value, duration);
+                    _myTween = textMeshProUGUI.DOColor(endColor, duration);
                     break;
             }
 

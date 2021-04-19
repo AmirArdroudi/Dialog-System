@@ -1,8 +1,7 @@
-﻿using System;
-using DG.Tweening;
+﻿using DG.Tweening;
 using UnityEngine;
 
-namespace VOID.FT.Scripts.Tweens
+namespace MyDotween
 {
     public class MyTweenRotate : MyTween
     {
@@ -43,7 +42,6 @@ namespace VOID.FT.Scripts.Tweens
 
         public override void Pause()
         {
-            base.Pause();
             myTween?.Pause();
         }
         public override Tween GetMyTween()

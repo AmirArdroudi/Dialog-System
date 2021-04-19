@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using DG.Tweening;
 
-namespace VOID.FT
+namespace MyDotween
 {
     public class MyTweenMove : MyTween
     {
@@ -43,7 +43,6 @@ namespace VOID.FT
         
         public override void Pause()
         {
-            base.Pause();
             myTween?.Pause();
         }
 
