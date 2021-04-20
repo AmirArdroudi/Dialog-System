@@ -16,3 +16,8 @@ TODO
 - [ ] write Comments for managers
 - [ ] Text typing effect for dialog lines
 - [ ] refactoring 
+
+Related Projects
+---
+[MyDoTweenWrapper](https://github.com/AmirArdroudi/MyDoTweenWrapper)
+[Unity-custom-eventhandler](https://github.com/AmirArdroudi/unity-custom-eventhandler)
