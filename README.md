@@ -3,7 +3,7 @@ This Dialog-system is a modular, data-driven system for handling dialogs for gam
 This system is based on [my custom event handler](https://github.com/AmirArdroudi/unity-custom-eventhandler').
 All dialog text will be read from its scriptable objects.
 
-
+![](readme/dialog.gif)
 
 ## Dependencies 
 * [MyBox](https://github.com/Deadcows/MyBox)
